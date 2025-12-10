@@ -1,5 +1,6 @@
 mod balances;
 mod system;
+mod support;
 
 // These are the concrete types we will use in our simple state machine.
 // Modules are configured for these types directly, and they satisfy all of our
