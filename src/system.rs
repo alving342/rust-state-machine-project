@@ -1,5 +1,9 @@
 use std::collections::BTreeMap;
 
+type AccountId = String;
+type BlockNumber = u32;
+type Nonce = u32;
+
 /// This is the System Pallet.
 /// It handles low level state needed for your blockchain.
 #[derive(Debug)]
